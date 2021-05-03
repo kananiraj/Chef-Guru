@@ -1,0 +1,68 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/bottom_home">
+
+    <fragment
+        android:id="@+id/nav_aboutus"
+        android:name="com.intern.chefguru.views.fragments.aboutus.AboutUsFragment"
+        android:label="@string/about_us"
+        tools:layout="@layout/fragment_about_us_" />
+
+    <fragment
+        android:id="@+id/help_and_support"
+        android:name="com.intern.chefguru.views.fragments.help_support.HelpSupportFragment"
+        android:label="@string/help_and_support"
+        tools:layout="@layout/fragment_help__support_" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.intern.chefguru.views.fragments.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/bottom_home"
+        android:name="com.intern.chefguru.views.fragments.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home_to_recipeDetail"
+            app:destination="@id/recipe_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bottom_favorite"
+        android:name="com.intern.chefguru.views.fragments.favorite.FavoriteFragment"
+        android:label="@string/title_favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/bottom_category"
+        android:name="com.intern.chefguru.views.fragments.category.CategoryFragment"
+        android:label="Category"
+        tools:layout="@layout/fragment_category">
+        <action
+            android:id="@+id/action_category_to_childCategory"
+            app:destination="@id/category_item" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/category_item"
+        android:name="com.intern.chefguru.views.fragments.category.CategoryItemFragment"
+        android:label="Category"
+        tools:layout="@layout/fragment_category_item_list">
+        <action
+            android:id="@+id/action_childCategory_to_recipeDetail"
+            app:destination="@id/recipe_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/recipe_detail"
+        android:name="com.intern.chefguru.views.fragments.category.RecipeDetailFragment"
+        android:label="Recipe"
+        tools:layout="@layout/fragment_recipe_detail">
+    </fragment>
+</navigation>

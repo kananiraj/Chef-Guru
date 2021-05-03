@@ -1,0 +1,54 @@
+
+<resources>
+    <string name="app_name">recipe</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="facebook_app_id">364229024981122</string>
+    <string name="fb_login_protocol_scheme">fb364229024981122</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+
+    <string name="menu_home">Home</string>
+    <string name="about_us">About us</string>
+    <string name="help_and_support">Help and Support</string>
+    <string name="logout">Logout</string>
+
+    <string name="menu_share">Share</string>
+
+    <!-- Bottom Navigation -->
+    <string name="title_home">Home</string>
+    <string name="title_category">Category</string>
+    <string name="title_favorite">Favorite
+    </string>
+    <string name="title_profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    <string name="app_name">HorizontalView</string>-->
+    <string name="search_text">Search....</string>
+    <string name="detail">Featured diet food</string>
+    <string name="detail_des">A healthy diet is one that helps maintain or improve overall health.</string>
+    <string name="most_view">Most Viewed</string>
+    <string name="viewall">view all</string>
+    <string name="chef">India\'s best Chef</string>
+    <string name="detailchef">I\'ve been a cook all my life, but I am still learning to be a good chef.</string>
+    <string name="Breakfast">Breakfast</string>
+    <string name="lunch">Healthy lunches</string>
+    <string name="dinner">Dilicious Dinner</string>
+    <string name="smoothy">fresh smoothies</string>
+    <string name="esycook">easy to cook</string>
+    <string name="kids">kids\'s favourite</string>
+    <string name="salads">salads and more</string>
+
+
+    <!--Chef overview details-->
+    <string name="vikasdetail">Vikas Khanna is an Indian Michelin star Chef, restaurateur, cookbook writer. He is one of the judges of Star Plus series MasterChef India.</string>
+    <string name="sanjeevdetail">He is an Indian celebrity chef, entrepreneur and television personality. Kapoor stars in the TV show Khana Khazana, which is the longest running show of its kind in Asia</string>
+    <string name="ranveerdetail">When he was young, he was inspired by the local kebab vendors in Lucknow. Later, he went to pursue his dream of acquiring Michelin Stars.</string>
+    <string name="skfemaledetail">She won MasterChef India in 2012, has written several cookbooks, hosts numerous cookery programmes.</string>
+    <string name="nitadetail">She is an Indian celebrity chef, author, restaurateur and media personality, known for her cookbooks, cooking classes and judge.</string>
+
+
+</resources>

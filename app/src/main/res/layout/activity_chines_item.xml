@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:columnCount="2"
+        android:rowCount="10"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="0"
+            android:layout_rowWeight="1"
+            app:cardElevation="3dp"
+            app:cardMaxElevation="@dimen/cardview_compat_inset_shadow"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="#E5E4E2"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:orientation="vertical"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/manchuriyan_img"
+                        android:layout_width="370px"
+                        android:layout_height="370px"
+                        android:padding="0dp"
+                        android:scaleType="fitXY"
+
+                        />
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="107dp"
+                        android:layout_height="wrap_content"
+                        android:text="Manchurian"
+                        android:paddingTop="2dp"
+                        android:textSize="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="55px"
+                        android:layout_height="70px"
+                        android:layout_marginLeft="0dp"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/veglogo"
+
+                        />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="0"
+            android:layout_rowWeight="1"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="#E5E4E2"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/chili_patato_img"
+                        android:layout_width="370px"
+                        android:layout_height="370px"
+                        android:scaleType="fitXY" />
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <TextView
+                        android:layout_width="107dp"
+                        android:layout_height="wrap_content"
+                        android:text="Chili Patota"
+                        android:paddingTop="2dp"
+                        android:textSize="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="55px"
+                        android:layout_height="70px"
+                        android:src="@drawable/veglogo"
+                        android:layout_marginLeft="0dp"
+                        android:paddingTop="10dp"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="0"
+            android:layout_rowWeight="1"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="#E5E4E2"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/noodel_img"
+                        android:layout_width="370px"
+                        android:layout_height="370px"
+
+                        android:scaleType="fitXY"
+                        />
+                </androidx.cardview.widget.CardView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Noodels"
+                        android:paddingTop="2dp"
+                        android:textSize="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="70px"
+                        android:layout_height="70px"
+                        android:src="@drawable/veglogo"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="10dp"
+
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="0"
+            android:layout_rowWeight="1"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="#E5E4E2"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/spring_roll_img"
+                        android:layout_width="370px"
+                        android:layout_height="370px"
+
+                        android:scaleType="fitXY"
+                        />
+                </androidx.cardview.widget.CardView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Spring Roll"
+                        android:paddingTop="2dp"
+                        android:textSize="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="70px"
+                        android:layout_height="70px"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/veglogo"
+
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="0"
+            android:layout_rowWeight="1"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="#E5E4E2"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/soup_img"
+                        android:layout_width="370px"
+                        android:layout_height="370px"
+                        android:scaleType="fitXY"
+                        />
+                </androidx.cardview.widget.CardView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Manchow Soup"
+                        android:paddingTop="2dp"
+                        android:textSize="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="50px"
+                        android:layout_height="70px"
+                        android:src="@drawable/veglogo"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="10dp"
+
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="0"
+            android:layout_rowWeight="1"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="#E5E4E2"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/garli_sauce_img"
+                        android:layout_width="370px"
+                        android:layout_height="370px"
+                        android:scaleType="fitXY" />
+
+                </androidx.cardview.widget.CardView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Garlic Sauce"
+                        android:paddingTop="2dp"
+                        android:textSize="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="50px"
+                        android:layout_height="70px"
+                        android:src="@drawable/veglogo"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="10dp"
+
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="0"
+            android:layout_rowWeight="1"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="#E5E4E2"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/stir_fry_img"
+                        android:layout_width="370px"
+                        android:layout_height="370px"
+
+                        android:scaleType="fitXY"
+                        />
+                </androidx.cardview.widget.CardView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="Stir FrY"
+                        android:paddingTop="2dp"
+                        android:textSize="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="70px"
+                        android:layout_height="70px"
+                        android:src="@drawable/veglogo"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="10dp"
+
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="0"
+            android:layout_rowWeight="1"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="#E5E4E2"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/rice_fries_img"
+                        android:layout_width="370px"
+                        android:layout_height="370px"
+                        android:src="@drawable/dal_dhokli"
+                        android:scaleType="fitXY"
+                        />
+                </androidx.cardview.widget.CardView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:text="Rice Fries"
+                        android:paddingTop="2dp"
+                        android:textSize="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="70px"
+                        android:layout_height="70px"
+                        android:src="@drawable/veglogo"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="10dp"
+
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="0"
+            android:layout_rowWeight="1"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="#E5E4E2"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/chowmein_img"
+                        android:layout_width="370px"
+                        android:layout_height="370px"
+                        android:src="@drawable/methi_muthia"
+                        android:scaleType="fitXY"
+                        />
+                </androidx.cardview.widget.CardView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <TextView
+                        android:layout_width="107dp"
+                        android:layout_height="50dp"
+                        android:text="Chowmein soup"
+                        android:paddingTop="2dp"
+                        android:textSize="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="55px"
+                        android:layout_height="70px"
+                        android:src="@drawable/veglogo"
+                        android:layout_marginLeft="0dp"
+                        android:paddingTop="10dp"
+
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="0"
+            android:layout_rowWeight="1"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp"
+            app:cardBackgroundColor="#E5E4E2"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="5dp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/samosa_chinese_img"
+                        android:layout_width="370px"
+                        android:layout_height="370px"
+                        android:src="@drawable/methi_thepla"
+                        android:scaleType="fitXY"
+                        />
+                </androidx.cardview.widget.CardView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:text="Chinese Samosa"
+                        android:paddingTop="2dp"
+                        android:textSize="20dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="70px"
+                        android:layout_height="70px"
+                        android:src="@drawable/veglogo"
+                        android:layout_marginLeft="5dp"
+                        android:paddingTop="10dp"
+
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+    </GridLayout>
+
+
+
+</ScrollView>

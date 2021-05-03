@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginRight="10dp"
+    >
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/slider_img"
+            android:layout_width="110dp"
+            android:layout_height="150dp"
+            android:src="@drawable/vk2"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/slider_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Italian Diet"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textColor="#292F33"
+            android:layout_toRightOf="@+id/slider_img"
+            />
+
+        <RatingBar
+            android:id="@+id/slider_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_toRightOf="@+id/slider_img"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/slider_title"
+            android:rating="4.0"
+            />
+
+        <TextView
+            android:id="@+id/slider_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/slider_img"
+            android:layout_below="@id/slider_rate"
+            android:padding="10dp"
+            android:text="@string/detail_des"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

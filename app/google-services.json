@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "942988937132",
+    "firebase_url": "https://recipe-app-42e16.firebaseio.com",
+    "project_id": "recipe-app-42e16",
+    "storage_bucket": "recipe-app-42e16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942988937132:android:e04e1e89566a6831c31c09",
+        "android_client_info": {
+          "package_name": "com.intern.chefguru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942988937132-a1a2co9m952bhnsn41rmvravrsl45thv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMfyfj3X1R2YK2f75bcPDneCtO7XKSYs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942988937132-a1a2co9m952bhnsn41rmvravrsl45thv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

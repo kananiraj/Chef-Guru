@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "672525923747",
+    "firebase_url": "https://recipe-552bd.firebaseio.com",
+    "project_id": "recipe-552bd",
+    "storage_bucket": "recipe-552bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672525923747:android:7d7231411b8ef978c35616",
+        "android_client_info": {
+          "package_name": "com.intern.chefguru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672525923747-bhdg103hfm9cae913qum5n6lhs9eucmo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.intern.chefguru",
+            "certificate_hash": "d7189e31035cc41ce4c5c6d59ffa14acbff058af"
+          }
+        },
+        {
+          "client_id": "672525923747-air1hr7tp3bllh9n7qi3jt84lkvfv063.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdT7VH0aQpoDkHFm7N84mFmupc9k8plZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672525923747-air1hr7tp3bllh9n7qi3jt84lkvfv063.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
